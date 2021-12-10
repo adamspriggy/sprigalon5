@@ -10,7 +10,7 @@ Sprigalon5 is an advance Python Based hiring engine that uses AI on the blockcha
 
 Adam Witanowski for Spriggy
 
-[email me](adam@spriggy.com.au) / [github](https://github.com/sprigalon5)
+[email me](adam@spriggy.com.au) / [github](https://github.com/adamspriggy/sprigalon5)
 
 
 ## Requirements
