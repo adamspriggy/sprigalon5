@@ -1,3 +1,6 @@
+![alt text](coverart.png)
+
+
 # Sprigalon5!
 
 Sprigalon5 is an advance Python Based hiring engine that uses AI on the blockchain to actively filter applicants... by AI I mean Adams Intelligence and by Blockchain I mean a gold chain with a large block of wood that I wear around my neck... its an RPG command line game that includes the ability to find and apply for jobs at Spriggy... you will fight monsters, the elements and your own fears to either leave the planet, be rescued or die in the process.  Happy hunting. I hope you like it and I hope to work with you one day. 
