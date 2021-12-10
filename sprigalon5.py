@@ -38,12 +38,12 @@ from pygame import mixer
 import webbrowser
 
 # Monster variables. Name, HP, attack, and HP after player runs away.
-cthulhu = ['Monster like the one in the movie "Cloverfield"', 200, 15, 300]
+cthulhu = ['Monster like the one in the movie "Cloverfield"', 200, 15, 180]
 rous = ['Rodent of unusual size', 50, 5, 50]
-rockMonster = ['Rock Monster named Calvin', 100, 10, 100]
-shroom = ['Angry Mushroom', 120, 15, 120]
-keith = ['Normal Keith', 70, 10, 90]
-keiths_mom = ["Keith's Angry Mother", 100, 25, 100]
+rockMonster = ['Rock Monster named Calvin', 100, 10, 80]
+shroom = ['Angry Mushroom', 120, 10, 90]
+keith = ['Normal Keith', 70, 10, 60]
+keiths_mom = ["Keith's Angry Mother", 90, 15, 80]
 
 # Travel Location definition set
 north = {
@@ -445,7 +445,7 @@ def fight(baddie):
         hit = 20
 
     if 'blade' in supplies:
-        hit = 30
+        hit = 40
     screen_clear()
     print(f"You are attacked by a {baddie[0]}!")
 
@@ -522,7 +522,7 @@ def eat():
     screen_clear()
     if 'food' in supplies:
         print("You eat the food and feel much better!")
-        health += 20
+        health += 30
         if health >= 100:
             health = 100
         print(f"Your health is now at {health}.\n")
@@ -965,6 +965,7 @@ def workshop():
             supplies.remove('raw vegetables')
             supplies.append('food')
             supplies.append('food')
+            supplies.append('food')
         elif workWith == "flint":
             print("""
             You set to work on the flint.
@@ -1215,7 +1216,7 @@ def finish():
 health = 100
 map = {'North': '?', 'Far North': '?', 'Northwest': '?', 'Northeast': "?", 'West': '?', 'East': '?', 'South': '?',
        'Southwest': '?', 'Southeast': '?'}
-supplies = ['food', 'food', 'food']
+supplies = ['food', 'food', 'food', 'food']
 myLocation = ship
 
 start()
