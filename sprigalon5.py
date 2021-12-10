@@ -1143,7 +1143,7 @@ def endSpriggy():
                  \__\/         \__\/                  \__\/         \__\/                  
 
                                THANK YOU FOR PLAYING SPRIGALON 5
-                 OUR TEAM WILL CONTACT YOU SHORTLY REGARDING YOU APPLICATION.
+                 OUR TEAM WILL CONTACT YOU SHORTLY REGARDING YOUR APPLICATION.
                       THANK YOU FOR CONSIDERING SPRIGGY AS YOUR NEW HOME.
           PLEASE TAKE A MOMENT TO LOOK AT OUR OTHER OUTSTANDING CAREER OPPORTUNITIES
 
