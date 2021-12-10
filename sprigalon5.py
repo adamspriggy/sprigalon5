@@ -440,9 +440,9 @@ def arrive(newLocation):
 # The fight scenes.  This writes fight story based on Monster data
 def fight(baddie):
     global health
-    hit = 10
+    hit = 15
     if 'spear' in supplies:
-        hit = 20
+        hit = 25
 
     if 'blade' in supplies:
         hit = 40
