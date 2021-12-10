@@ -95,7 +95,7 @@ ship = {
     'south': 9,
     'mapname': 'Ship',
     'mapDescript': 'A wrecked spaceship',
-    'aText': "\tYou are on your ship. It is safe here.",
+    'aText': "\tYou are on your ship. The SRIGALON5. It is safe here.",
     'aText2': "\tAfter a night of rest, you feel refreshed.\n\tYou know that if this ship is ever going to\n\tfly again though, you will need to find\n\tsome pulse crystals. \n\tHealth at 100%."
 }
 
@@ -1174,7 +1174,7 @@ def finish():
     print("Hit ENTER to continue")
     input("> ")
     screen_clear()
-    print("\tIT WORKS!")
+    print("\tIT WORKS! The SRIGALON5 roars to life")
     print("\n" * 3)
     print("Hit ENTER to continue")
     input("> ")
